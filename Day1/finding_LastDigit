@@ -1,20 +1,24 @@
-import java.io.*;
 import java.util.*;
-
-// Read only region start
+//Read only region start
 
 class UserMainCode
-{
 
-public int LastDigit(int input1)
-  {
-
+public int lastDigitOf(int input1)
+{ 
 // Read only region end
-    int lastdigit=input1%10;
-    if(lastdigit<0){
-    return -lastdigit;
-    }
-    else{ 
-    return lastdigit;
-    }
-  }
+
+if(input1>0){
+
+int a-input1%10;
+
+return a;
+
+}
+else{
+
+int b-input1%10-1;
+
+return b;
+
+}
+}
