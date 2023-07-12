@@ -1,4 +1,4 @@
-import java.util.java.*;
+import java.util.*;
 class odd{
 
 public int isodd(int input1, input2,input3,input4,input5){
